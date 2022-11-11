@@ -59,3 +59,25 @@ export const toolsLearning = [
         id: 7
     }
 ]
+
+export const knowledgeTaste = {
+    leftList: [
+        "It - сфера",
+        "Бізнес",
+        "Право",
+        "Економіка",
+        "Маркетинг"
+    ],
+    middle: {
+        title: "В нас ви знайдете",
+        count: 15,
+        text: 'спеціальностей'
+    },
+    rightList: [
+        'Менеджмент',
+        'Філологія',
+        'Психологія',
+        'Фінанси',
+        'Культура'
+    ]
+}

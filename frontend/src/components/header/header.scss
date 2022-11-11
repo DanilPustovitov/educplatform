@@ -1,9 +1,62 @@
-.header{
-    background-color: red;
-    .paragraph{
-        background-color: black;
-        .span-1{
-            color: aqua;
-        }
+.header-container {
+  background: #0f0f0f;
+  padding: 16px 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 -15px;
+
+  .header-right,
+  .search-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-right {
+    gap: 115px;
+  }
+
+  .search-content {
+    gap: 50px;
+  }
+
+  .searchBtn {
+    img {
+      width: 39.99px;
+      height: 40px;
     }
+  }
+
+  .languageBtn {
+    img {
+      width: 60px;
+      height: 45px;
+    }
+  }
+
+  .authBtn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .join-text {
+      color: #ededed;
+    }
+
+    img {
+      height: 30px;
+    }
+  }
+
+  .logo-text {
+    color: #ededed;
+    background: #1e1e1e;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 25px 75px;
+  }
 }

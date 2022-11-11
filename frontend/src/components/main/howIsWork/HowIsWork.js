@@ -38,7 +38,7 @@ export default function HowIsWork() {
             <ul>
               {toolsLearning.map((t) => (
                 <li>
-                  <Image alt={`image-${t.id}`} src={PlusIcon} />
+                  <Image alt={`image-${t.id}`} className={`${t.isFirst ? '' : 'low-opacity'}`} src={PlusIcon} />
                   <span>{t.text}</span>
                 </li>
               ))}
