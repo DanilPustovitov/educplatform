@@ -2,17 +2,144 @@
     background: #0F0F0F;
     backdrop-filter: blur(250px);
     height: 700px;
+    font-family: "e-Ukraine Head";
 }
 
 .introheader {
-    color: #FF8001;
+    color: #EDEDED;
     font-size: 64px;
-    left: 60px;
-    top: 50px;
+    left: 250px;
+
     position:absolute;
-    width: 800px;
+    width: 1000px;
     height:100px;
 }
+
+.trialButton {
+    position: absolute;
+    background-color: #FF5600;
+    font-family: "e-Ukraine Head";
+    width: 600px;
+    height: 65px;
+    border-radius: 10px;
+    top:630px;
+    left: 80px;
+    color: #EDEDED;
+}
+
+.firstP {
+    position: absolute;
+    top: 225px;
+    left: 80px;
+}
+
+.firstPHead {
+    color:#EDEDED;
+    position: absolute;
+    width: 700px;
+    top:-46px;
+    left: 50px;
+    font-size: 26px;
+}
+
+.firstPText {
+    color:#EDEDED;
+    position: absolute;
+    width: 1000px;
+    top:10px;
+    left: -110px;
+    font-size: 13px;
+    font-family: "Inter-Light";
+}
+
+
+.mainImage {
+    position: absolute;
+    width: 560px;
+    height: 420px;
+    top:200px;
+    right:50px;
+}
+
+.firstPTextEnd {
+    color:#EDEDED;
+    position: absolute;
+    width: 300px;
+    top:25px;
+    font-size: 13px;
+    font-family: "Inter-Light";
+}
+
+.secondP {
+    position: absolute;
+    top: 375px;
+    left: 80px;
+}
+
+.secondPHead {
+    color:#EDEDED;
+    position: absolute;
+    width: 700px;
+    top:-46px;
+    left: 50px;
+    font-size: 26px;
+}
+
+.secondPText {
+    color:#EDEDED;
+    position: absolute;
+    width: 1000px;
+    top:10px;
+    left: -110px;
+    font-size: 13px;
+    font-family: "Inter-Light";
+}
+
+.secondPTextEnd{
+    color:#EDEDED;
+    position: absolute;
+    width: 600px;
+    top:25px;
+    left: 70px;
+    font-size: 13px;
+    font-family: "Inter-Light"; 
+}
+
+.thirdP {
+    position: absolute;
+    top: 525px;
+    left: 80px;
+}
+
+.thirdPHead {
+    color:#EDEDED;
+    position: absolute;
+    width: 700px;
+    top:-46px;
+    left: 50px;
+    font-size: 26px;
+}
+
+.thirdPText {
+    color:#EDEDED;
+    position: absolute;
+    width: 1000px;
+    top:10px;
+    left: -110px;
+    font-size: 13px;
+    font-family: "Inter-Light";
+}
+
+.thirdPTextEnd{
+    color:#EDEDED;
+    position: absolute;
+    width: 600px;
+    top:25px;
+    left: -20px;
+    font-size: 13px;
+    font-family: "Inter-Light"; 
+}
+
 
 .moreInfo {
     position: absolute;
